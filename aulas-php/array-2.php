@@ -16,4 +16,16 @@ print_r($frutas);
 echo "<br />";
 echo "<hr />";
 
-echo count($frutas);
+$totaldefrutas =  count($frutas);
+echo $totaldefrutas;
+echo "<br />";
+echo "<hr />";
+
+$xadrez = ["Rei", "Rainha", "Torres", "Bispos", "Cavalos", "Peões", "Dama"];
+print_r($xadrez);
+echo "<br />";
+echo "<hr />";
+
+$jogodeacademico = count($xadrez);
+echo $jogodeacademico;
+
