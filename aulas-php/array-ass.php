@@ -12,4 +12,7 @@ echo $garota["cidade"];
 echo "<br />";
 echo $garota["estado"];
 echo "<br />";
-
+echo "<hr />";
+foreach($garota as $indice => $valor){
+        echo $indice. ":" .$valor."<br>";
+}
