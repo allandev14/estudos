@@ -54,3 +54,13 @@ foreach($esportes as $medalhas) {
 echo "<br />";
 echo "<hr />";
 
+//Array são númericos quando os índices ou as chaves são númericos
+
+
+//Array associativos quando os índices ou as chaves são strings
+
+$pessoa = array("nome" => "Asuna", "idade" => "23", "altura" => "1.65");
+print_r($pessoa);
+echo "<br />";
+echo "<hr />";
+echo $pessoa["altura"];
