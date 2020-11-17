@@ -50,9 +50,19 @@ $distros[5] = "POP-OS";
 print_r($distros);
 echo "<br />";
 echo "<hr />";
+
 echo $distros[5];
 echo "<br />";
 echo "<hr />";
-echo $distros [2];
+
+echo $distros[2];
+echo "<br />";
+echo "<hr />";
+
+echo $distros[1];
+echo "<br />";
+echo "<hr />";
+
+echo $distros[0];
 echo "<br />";
 echo "<hr />";
