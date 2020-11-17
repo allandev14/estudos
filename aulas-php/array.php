@@ -33,3 +33,8 @@ echo $naruto[20];
 echo "<br />";
 echo "<hr />";
 echo $naruto[15];
+echo "<br />";
+echo "<hr />";
+$desenhos = array(11=>"Naruto Uzumaki", 16=>"Hinata Hyuga");
+$desenhos[] = "Sasuke Uchiha";
+print_r($desenhos);
