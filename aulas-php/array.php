@@ -38,3 +38,21 @@ echo "<hr />";
 $desenhos = array(11=>"Naruto Uzumaki", 16=>"Hinata Hyuga");
 $desenhos[] = "Sasuke Uchiha";
 print_r($desenhos);
+echo "<br />";
+echo "<hr />";
+
+$distros = array();
+$distros[] = "Ubuntu";
+$distros[] = "Mint";
+$distros[] = "Fedora";
+$distros[5] = "POP-OS";
+
+print_r($distros);
+echo "<br />";
+echo "<hr />";
+echo $distros[5];
+echo "<br />";
+echo "<hr />";
+echo $distros [2];
+echo "<br />";
+echo "<hr />";
