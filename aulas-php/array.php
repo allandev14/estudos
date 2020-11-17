@@ -1,5 +1,6 @@
 <?php
 // Estudos de Array no PHP
+// Exemplo de impressão usando carros 
 
 $carro1 = "Volvo 850 ";
 $carro2 = "Mercedes-Benz 450";
@@ -21,3 +22,14 @@ echo "<hr />";
 echo $carro4;
 echo "<br />";
 echo "<hr />";
+
+$animes = array("Naruto Uzumaki", "<br />", "Goku", "<br />", "Hinata Hyuga", "<br />", "Sakura Haruno");
+print_r ($animes);
+echo "<br />";
+echo "<hr />";
+
+$naruto = array(20=>"Naruto Uzumaki", 15=>"Hinata Hyuga");
+echo $naruto[20];
+echo "<br />";
+echo "<hr />";
+echo $naruto[15];
