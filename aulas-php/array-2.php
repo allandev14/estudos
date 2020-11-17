@@ -8,3 +8,12 @@ echo "<br />";
 echo "<hr />";
 
 echo count($herois);
+echo "<br />";
+echo "<hr />";
+
+$frutas = ["Abiu", "Açaí", "Amêndoa", "Araçá", "Babaçu", "Bacuri"];
+print_r($frutas);
+echo "<br />";
+echo "<hr />";
+
+echo count($frutas);
