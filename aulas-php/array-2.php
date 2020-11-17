@@ -28,4 +28,29 @@ echo "<hr />";
 
 $jogodeacademico = count($xadrez);
 echo $jogodeacademico;
+echo "<br />";
+echo "<hr />";
+
+
+//Foreach realiza um loop dentro das variáveis
+
+foreach($xadrez as $valor) {
+    echo $valor."<br>";
+}
+echo "<br />";
+echo "<hr />";
+
+$esportes = ["Atletismo", "Natação", "Ciclimo", "Skate", "Handebol"];
+print_r($esportes);
+
+$olimpiadas = count($esportes);
+echo "<br />";
+echo "<hr />";
+
+
+foreach($esportes as $medalhas) {
+    echo $medalhas. "<br>";
+}
+echo "<br />";
+echo "<hr />";
 
