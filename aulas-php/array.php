@@ -41,6 +41,8 @@ print_r($desenhos);
 echo "<br />";
 echo "<hr />";
 
+// Outra forma de se criar uma array
+
 $distros = array();
 $distros[] = "Ubuntu";
 $distros[] = "Mint";
@@ -64,5 +66,11 @@ echo "<br />";
 echo "<hr />";
 
 echo $distros[0];
+echo "<br />";
+echo "<hr />";
+
+
+$herois = ["Homem-de-ferro", "Homem-aranha", "Capitão-America"];
+print_r($herois);
 echo "<br />";
 echo "<hr />";
