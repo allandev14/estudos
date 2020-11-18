@@ -7,7 +7,7 @@ $nomes  =array("Amanda", "Felipe", "Maria", "José");
     echo is_array($nomes);
 */
 
-$nomes = array("Amanda", "Felipe", "Maria", "José");
+/*$nomes = array("Amanda", "Felipe", "Maria", "José");
 var_dump(is_array($nomes)) ;
 echo "<br /> <br />";
 
@@ -29,3 +29,31 @@ else:
 endif;
 echo "<br /> <hr />";
 
+/*
+*is_array($valor, $array) = verifica se um determinado valor existe
+*dentro de alguma posição do array
+*/
+
+$portas = array("madeira", "vidro", "ferro");
+
+if(in_array("madeira", $portas)):
+    echo "Existe no array";
+else:
+    echo "Não existe no array";
+endif;
+echo "<br /> <hr />";
+
+$portas = array("vidro");
+if(in_array("vidro", $portas)):
+    echo "Existe dentro no array";
+else:
+    echo "Não existe dentro do array";
+endif;
+echo "<br /> <hr />";
+
+$portas = array("ferro");
+if(in_array("ferro", $portas)):
+    echo "Existe dentro da array";
+else:
+    echo "Não existe dentro do array";
+endif;
