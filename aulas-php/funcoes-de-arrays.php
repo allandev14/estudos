@@ -34,7 +34,7 @@ echo "<br /> <hr />";
 *dentro de alguma posição do array
 */
 
-$portas = array("madeira", "vidro", "ferro");
+/*$portas = array("madeira", "vidro", "ferro");
 
 if(in_array("madeira", $portas)):
     echo "Existe no array";
@@ -51,9 +51,23 @@ else:
 endif;
 echo "<br /> <hr />";
 
-$portas = array("ferro");
+*/
+/*$portas = array("ferro");
 if(in_array("ferro", $portas)):
     echo "Existe dentro da array";
 else:
     echo "Não existe dentro do array";
 endif;
+
+//Arrays_keys($array) = Retorna todas as chaves ou uma parte das chaves de array
+
+$keys = array_keys($portas);
+
+ptint_r($keys);
+
+*/
+
+$nomes = array("Amiga"=>"Amanda", "Colega"=>"Carla", "Prima"=>"Diana");
+
+$keys = array_keys($nomes);
+print_r($keys);
