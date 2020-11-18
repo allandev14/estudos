@@ -16,4 +16,16 @@ if(is_array($nomes)):
 else:
     echo "Não é uma array";
 endif;
+echo "<br /> <hr />";
+
+$escola = array("lapis", "borracha", "apontador", "caderno");
+var_dump(is_array($escola));
+echo "<br /> <br />";
+
+if(is_array($escola)):
+        echo "É uma array";
+else:
+        echo "Não é uma array";
+endif;
+echo "<br /> <hr />";
 
