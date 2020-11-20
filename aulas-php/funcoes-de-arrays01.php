@@ -62,5 +62,11 @@ echo "<br> <hr>";
 echo array_shift($a3);
 echo "<br><br>";
 print_r($a3);
-echo "<br/>";
+echo "<br/> <hr/>";
 
+//array_push — Adiciona um ou mais elementos no final de um array
+$a4 = array("violão", "corda", "braço");
+print_r($a4);
+echo"<br>";
+echo array_push($a4, "cavalete", "palheta");
+echo "<br>";
