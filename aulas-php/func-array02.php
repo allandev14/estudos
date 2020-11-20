@@ -67,3 +67,20 @@ echo "<br/>";
 echo array_push($a5, "mochila", "escolar", "professora");
 echo "<br/> <hr/>";
 
+//array_combine — Cria um array usando um array para chaves e outro para valores
+
+$campeonato = array("Campeão", "vice", "Terceiro");
+$times = array("Cruzeiro", "America", "Atletico-MG");
+
+$brasileiro = array_combine($campeonato, $times);
+print_r($brasileiro);
+
+echo "<br/> <hr/>";
+
+//Exemplo 2
+
+$moeda = array("real", "dolar", "euro");
+$bolsadevalores = array("Brasil", "Estados-Unidos", "Alemanha");
+
+$valor = array_combine($moeda, $bolsadevalores);
+print_r($valor);
