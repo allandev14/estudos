@@ -31,4 +31,36 @@ $n2 = array("1","2","3", "4", "5", "6");
     $soma = array_merge($n1, $n2);
     print_r($soma);
 
-        echo "<br><br>";
+        echo "<br/><br/>";
+
+//array_pop — Extrai um elemento do final do array
+
+$a1 = array("gato", "cachorro", "pato");
+print_r($a1);
+echo "<br/>";
+echo array_pop($n1);
+echo "<br/>";
+print_r($n1);
+
+echo "<br/> <hr/>";
+
+//Exemplo de array_pop 2
+
+$a2 = array("passaro", "casa", "porteira");
+print_r($a2);
+echo "<br/>";
+echo array_pop($a2);
+echo "<br/> <hr/>";
+print_r($a2);
+echo "<br/> <hr/>";
+
+//array_shift — Retira o primeiro elemento de um array
+
+$a3 = array("cachorro", "pato", "papagaio");
+print_r($a3);
+echo "<br> <hr>";
+echo array_shift($a3);
+echo "<br><br>";
+print_r($a3);
+echo "<br/>";
+
