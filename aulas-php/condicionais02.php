@@ -21,15 +21,15 @@
     echo "<br/> <hr/>";
 
 // Constantes em PHP parte 2
-    $nome = 'Alicia';
+    $nome = "Alicia";
     switch ($nome):
-    case "Angelica";
-        echo "Seu nome é Augsuto";
+    case 'Angelica';
+        echo "Seu nome é Alicia";
     break;
-    case "Juliana";
+    case 'Juliana';
         echo "Seu nome é Juliana";
     break;
-    case "Carla";
+    case 'Carla';
         echo "Seu nome é Carla";
     break;
     endswitch;
