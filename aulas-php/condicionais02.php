@@ -2,9 +2,9 @@
 
 // Constastes em PHP parte 2
 
-$cor = "marfim";
+    $cor = "marfim";
 
-switch ($cor):    
+    switch ($cor):    
     case 'Azul':
         echo "Então sua cor preferida é Azul";
     break;
@@ -16,6 +16,20 @@ switch ($cor):
     break;
     default:
         echo "Então sua cor preferida é Azul, Preto, ou Laranja";
-    
+    endswitch;
 
-endswitch;
+    echo "<br/> <hr/>";
+
+// Constantes em PHP parte 2
+    $nome = 'Alicia';
+    switch ($nome):
+    case "Angelica";
+        echo "Seu nome é Augsuto";
+    break;
+    case "Juliana";
+        echo "Seu nome é Juliana";
+    break;
+    case "Carla";
+        echo "Seu nome é Carla";
+    break;
+    endswitch;
