@@ -26,6 +26,20 @@ echo "<br>";
 echo 3*3;
 echo "<br/> <hr/>";
 
+// Módulo
+echo 12%2;
+echo "<br/>";
+echo 30%3;
+echo "<br/>";
+
+// Exponenciação
+echo 18**2;
+echo "<br/>";
+echo 2**3;
+echo "<br/>";
+echo 4**5;
+echo "<br/> <hr/>";
+
 //Exemplo 1
 
 $n1 = 1+1;
