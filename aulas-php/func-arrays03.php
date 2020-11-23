@@ -22,3 +22,11 @@ echo array_sum($a4);
 
 $soma = array(25,2,5);
 echo array_sum($soma);
+    echo "<br>";
+
+// Outra forma de apresentar resultado variável sum
+
+$soma1 = array(5.3,8,9,1,2);
+$total = array_sum($soma1);
+
+echo array_sum($soma1);
