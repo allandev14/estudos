@@ -52,4 +52,15 @@ $escreva = explode(" ", $frases);
 $frases2 = "Como pedir coroas a um rei que da glória se despiu";
 $escreva2 = explode(" ", $frases2);
     print_r($escreva2);
-    echo "<br/>";
+    echo "<br/> <hr/>";
+
+    // implode — Junta elementos de uma matriz em uma string
+
+$nomes = array("Amanda", "Carlos", "Maria", "Juliana");
+$string = implode(", ", $nomes);
+    echo $string;
+    echo "<br>";
+
+$idade = array("12","25", "31");
+$aniversario = implode(", ", $idade);
+    echo $aniversario;
