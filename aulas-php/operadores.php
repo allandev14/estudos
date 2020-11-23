@@ -45,8 +45,31 @@ echo "<br/> <hr/>";
 $n1 = 1+1;
 $pessoa = ('Aline');
 
-if($n1 ==5):
+if($n1 == 7):
     echo ("$pesoa, sua soma é verdadeira");
 else:
     echo ("Sua soma não é verdadeira $pessoa");
 endif;
+echo "<br/> <hr/>";
+
+//Exemplo 2
+
+$b1 = 3;
+$b2 = 1;
+$b3 = 4;
+$sub = $b1 - $b2 *$b3;
+echo "Sua soma foi igual à $sub";
+echo "<br/> <hr/>";
+
+// Exemplo 3
+
+$jogador = "Mario";
+$PS5 = 4.999;
+$cofre = 200;
+
+if ($cofre >= $PS5):
+    echo "$jogador, você já pode comparar seu presente";
+else:
+    echo "Você ainda não tem dinheiro suficiente $jogador";
+endif;
+echo "<br>";
