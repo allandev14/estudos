@@ -2,7 +2,7 @@
 
 // Constastes em PHP parte 2
 
-$cor = "Azul";
+$cor = "marfim";
 
 switch ($cor):    
     case 'Azul':
@@ -14,4 +14,8 @@ switch ($cor):
     case 'Laranja':
         echo "Então sua cor preferida é o Laranja";
     break;
+    default:
+        echo "Então sua cor preferida é Azul, Preto, ou Laranja";
+    
+
 endswitch;
