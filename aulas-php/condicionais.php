@@ -44,3 +44,7 @@ $aluno = 'João';
 echo "<br/> <hr/>";
 
 echo ($nota >= 10) ? "$aluno, você foi Aprovado esse ano" :"$aluno, infelizmente você não foi aprovado esse ano";
+
+// Trabalhando com variáveis dentro de constates
+
+echo "<h3>Olá mundo<h3/>";
