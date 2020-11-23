@@ -29,3 +29,18 @@ else:
     echo "Nós vemos em breve";
 endif;
 echo "<br/> <hr/>";
+
+// Operadores ternários
+// Nesse caso o operador if é representado pelo sinal de ?, e o else é representado pelo símbolo de :
+
+
+$media = 3;
+
+echo ($media >= 7) ? "Aprovado!" : "Reprovado!"; 
+
+$nota = 5;
+$aluno = 'João';
+
+echo "<br/> <hr/>";
+
+echo ($nota >= 10) ? "$aluno, você foi Aprovado esse ano" :"$aluno, infelizmente você não foi aprovado esse ano";
