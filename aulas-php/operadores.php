@@ -73,3 +73,5 @@ else:
     echo "Você ainda não tem dinheiro suficiente $jogador";
 endif;
 echo "<br>";
+
+// Exemplo Operação 3

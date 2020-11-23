@@ -1,0 +1,4 @@
+<?php
+
+// Operadores de incrimento
+
