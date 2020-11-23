@@ -65,9 +65,9 @@ echo "<br/> <hr/>";
 
 $jogador = "Mario";
 $PS5 = 4.999;
-$cofre = 200;
+$cofre = 4.999;
 
-if ($cofre >= $PS5):
+if ($cofre <= $PS5):
     echo "$jogador, você já pode comparar seu presente";
 else:
     echo "Você ainda não tem dinheiro suficiente $jogador";
