@@ -43,10 +43,10 @@ echo "<br/> <hr/>";
 //Exemplo 1
 
 $n1 = 1+1;
-$pessoas = ('Aline');
+$pessoa = ('Aline');
 
-if ($n1 == 9):
-    echo "$pesoas, sua soma não deu 2";
+if($n1 ==5):
+    echo ("$pesoa, sua soma é verdadeira");
 else:
-    echo "$pessoas, sua soma deu 2";
+    echo ("Sua soma não é verdadeira $pessoa");
 endif;
