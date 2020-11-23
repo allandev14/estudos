@@ -16,6 +16,10 @@ switch ($cor):
     break;
     default:
         echo "Então sua cor preferida é Azul, Preto, ou Laranja";
+<<<<<<< HEAD
     
 
 endswitch;
+=======
+    endswitch;
+>>>>>>> main
