@@ -47,3 +47,9 @@ $novadata1  = explode("/", $data1);
 $frases  = "Olá mundo";
 $escreva = explode(" ", $frases);
     print_r($escreva);
+    echo "<br/>";
+
+$frases2 = "Como pedir coroas a um rei que da glória se despiu";
+$escreva2 = explode(" ", $frases2);
+    print_r($escreva2);
+    echo "<br/>";
