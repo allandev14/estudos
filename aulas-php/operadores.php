@@ -24,4 +24,15 @@ echo "<br/>";
 echo 2*10;
 echo "<br>";
 echo 3*3;
-echo "<br/>";
+echo "<br/> <hr/>";
+
+//Exemplo 1
+
+$n1 = 1+1;
+$pessoas = ('Aline');
+
+if ($n1 == 9):
+    echo "$pesoas, sua soma não deu 2";
+else:
+    echo "$pessoas, sua soma deu 2";
+endif;
