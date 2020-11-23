@@ -44,6 +44,6 @@ $novadata1  = explode("/", $data1);
     print_r($novadata1);
     echo "<br> <hr>";
 
-    
-
-
+$frases  = "Olá mundo";
+$escreva = explode(" ", $frases);
+    print_r($escreva);
