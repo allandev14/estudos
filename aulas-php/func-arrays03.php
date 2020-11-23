@@ -30,3 +30,20 @@ $soma1 = array(5.3,8,9,1,2);
 $total = array_sum($soma1);
 
 echo array_sum($soma1);
+    echo "<br/>";
+
+// array_explode — Divide uma string em strings
+
+$data = "25/12/2020";
+$novaData = explode("/", $data);
+    print_r($novaData);
+    echo "<br>";
+
+$data1 = "12/12/2303";
+$novadata1  = explode("/", $data1);
+    print_r($novadata1);
+    echo "<br> <hr>";
+
+    
+
+
