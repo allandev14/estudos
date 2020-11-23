@@ -90,4 +90,3 @@ echo "<br/> <hr/>";
 $a = array(2,1,1);
 echo array_sum($a);
 echo "<br/> <hr/>";
-
