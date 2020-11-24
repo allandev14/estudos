@@ -8,6 +8,8 @@ $novoNome = strtoupper($nome);
 echo $novoNome;
 echo "<br/> <hr/>";
 
+// Exemplo 2
+
 $uchira = "itachi uchira";
 $susano = strtoupper($uchira);
 echo $susano;
