@@ -38,4 +38,9 @@ echo "<br/>";
 echo floor(7.7);
 echo "<br/>";
 echo floor(8.7);
-echo "<br/>";
+echo "<br/> <hr/>";
+
+// Função rand para geração de valores randonicos como sorteios por exemplo
+echo rand(1,25); // A função gera númers aleatórios a partir do número indicado
+
+
