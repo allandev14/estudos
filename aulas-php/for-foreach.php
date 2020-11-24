@@ -23,3 +23,10 @@ foreach ($cores as $valor):
     echo $valor ."<br/>";
 endforeach;
 echo "<br>";
+
+// Exemplo 2 foreach
+
+$marcas = array("Gol", "Palio", "Fox");
+foreach ($marcas as $carros):
+    echo $carros ."<br>";
+endforeach;
