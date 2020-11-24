@@ -29,3 +29,21 @@ function exibirMoeda() {
     }
 
 exibirMoeda();
+echo "<br/> <hr/>";
+
+// Exemplo 4
+
+function exibirSoma() {
+
+    $nota1 = 10;
+    $nota2 = 2;
+    $media = 7;
+    
+    if (($nota1 - $nota2) >= $media):
+        echo "Parabéns você foi aprovado";
+    else:
+        echo "Você não foi aprovado";
+    endif;   
+}
+
+exibirSoma();
