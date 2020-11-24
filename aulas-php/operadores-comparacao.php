@@ -18,9 +18,17 @@ echo "<br/> <hr/>";
 
 // Operador não positivo
 
-if (1 != 1): // Atribuição não positivo !=
+if (1 != 11): // Atribuição não positivo !=
     echo "Positivo";
 else:
     echo "Negativo";
 endif;
+echo "<br/> <hr/>";
 
+// Operador idêntico
+
+if (1 === 1): //Atribuição de idêntidade
+    echo "Positivo";
+else:
+    echo "Negativo";
+endif;
