@@ -30,7 +30,7 @@ echo "<br/>";
 echo ceil(7.9);
 echo "<br/>";
 echo ceil(9.3);
-echo "<br/>";
+echo "<br/> <hr/>";
 
 // floor realiza o arredondamento somente para braixo
 echo floor(9.9);
