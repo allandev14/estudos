@@ -26,7 +26,7 @@ echo "<br>";
 
 // Exemplo 2 foreach
 
-$marcas = array("Gol", "Palio", "Fox");
-foreach ($marcas as $carros):
-    echo $carros ."<br>";
+$marcas = array(10=> "Gol", "Palio", "Fox"); // Também podemos inserir o índice personalizado antes das strings
+foreach ($marcas as $indice => $carros): // Nesse caso a variável marcas está atribuindo valor a variável carros 
+    echo $indice. " - " .$carros ."<br>";
 endforeach;
