@@ -1,7 +1,7 @@
 <?php
 
 // Figuras de repetição While e Do While
-// While e do While
+// While e do While | Enquanto  
 
 $contador = 1;
 while ($contador <= 10):
