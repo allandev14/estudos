@@ -22,3 +22,4 @@ echo $valor--;
 echo "<br>";
 // Pós decremento
 echo $valor;
+
