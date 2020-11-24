@@ -13,4 +13,18 @@ echo "<br/> <hr/>";
 $uchira = "itachi uchira";
 $susano = strtoupper($uchira);
 echo $susano;
+echo "<br/> <hr/>";
+
+// strtolower Converte strings maiuscúlas para minuscúlas
+
+$pessoa = "ANA JULIA";
+$sobrenome = strtolower($pessoa);
+echo $sobrenome;
 echo "<br/>";
+
+// Exemplo 2
+
+$pelo = "GATO";
+$felino = strtolower($pelo);
+echo $felino;
+echo "<br>";
