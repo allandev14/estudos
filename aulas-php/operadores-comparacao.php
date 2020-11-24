@@ -2,7 +2,7 @@
 
 // Operadores de comparação
 
-if (10 == 10):
+if (10 == 10): //Operador de igualdade
     echo "Positivo";
 else:  
     echo "Negativo";
@@ -14,3 +14,13 @@ if (20 == 32):
 else:
     echo "Sua conta está negativa";
 endif;
+echo "<br/> <hr/>";
+
+// Operador não positivo
+
+if (1 != 1): // Atribuição não positivo !=
+    echo "Positivo";
+else:
+    echo "Negativo";
+endif;
+
