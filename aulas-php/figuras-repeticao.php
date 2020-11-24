@@ -17,3 +17,12 @@ while ($hora <= 59):
     echo "Agora são 12:$hora <br>";
     $hora++;
 endwhile;
+echo "<br/> <hr/>";
+
+// Exemplo 3
+ $segundos = 1;
+ do {
+
+    echo "Número $segundos <br/>";
+    $segundos++;
+}   while ($segundos <= 60);
