@@ -13,3 +13,4 @@ echo "<br/> <hr/>";
 $uchira = "itachi uchira";
 $susano = strtoupper($uchira);
 echo $susano;
+echo "<br/>";
