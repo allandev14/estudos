@@ -58,3 +58,6 @@ $novoTexto = str_replace("vechame não", "condenação", $texto); /* Aqui no pri
 retirado já o no segundo espaço será o texto que será inserido e o terceiro é basicamente o a variável que foi declarada*/
 echo "<br/> <hr/>";
 
+// strpos exibe a posição de uma string anteriormente indicada
+echo strpos($texto, "salvação"); 
+echo "<br/> <hr/>";
