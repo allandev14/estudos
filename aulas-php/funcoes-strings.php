@@ -43,4 +43,18 @@ $novoObjeto = str_pad($objeto, 1, "*****", STR_PAD_LEFT ); // O último parâmet
 
 $string = str_repeat("sucesso", 5);  
 echo $string;
-echo "<br/>";
+echo "<br/> <hr/>";
+
+// strlen Demonstra o comprimento da string
+
+$mensagem = "Olá mundo";
+echo strlen($mensagem);
+echo "<br/> <hr/>";
+
+// str_repleace Insere uma nova palavra dentro de uma frase
+
+$texto = "O senhor é a rocha da minha salvação, com ele não há mais vechame não";
+$novoTexto = str_replace("vechame não", "condenação", $texto); /* Aqui no primeiro campo inserimos o texto que será
+retirado já o no segundo espaço será o texto que será inserido e o terceiro é basicamente o a variável que foi declarada*/
+echo "<br/> <hr/>";
+
