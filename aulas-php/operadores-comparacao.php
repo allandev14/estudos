@@ -91,4 +91,45 @@ if (10 >2): // Operador de maior Quê
 else:
     echo "Negativo";
 endif;
-echo "<br/>";
+echo "<br/> <hr/>";
+
+// Operador maior igual
+if (15 >= 20): //Operador de maior Quê
+    echo "Verdadeiro";
+else:
+    echo "Negativo";
+endif;
+echo "<br/> <hr/>";
+
+// Exemplo 2
+if (21 >= 23):
+    echo "Verdadeiro";
+else:
+    echo "Negativo";
+endif;
+
+// Operador de menor Quê
+if (12 <= 23): // Atribuição de menor Quê
+    echo "Positivo";
+else:
+    echo "<Negativo>";
+endif;
+echo "<br/> <hr/>";
+
+// Exemplo 2
+
+if (25 <= 12):
+    echo "Positivo";
+else:
+    echo "Negativo";
+endif;
+echo "<br/> <hr/>";
+
+// Operador Space Chip
+Var_dump(20 <=> 30); //Só retorna 3 valores
+echo "<br>";
+
+// Exemplo 2
+var_dump(100 <=> 25);
+
+
