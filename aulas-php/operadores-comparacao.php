@@ -126,7 +126,10 @@ endif;
 echo "<br/> <hr/>";
 
 // Operador Space Chip
-Var_dump(20 <=> 30); //Só retorna 3 valores
+
+Var_dump(20 <=> 30); 
+/*Só retorna 3 valores Se o lado esquerdo for menor ele irá retornar o valor de -1 
+se os dois lados forem iguais ele retorna o valor de 0, e se o lado esquerdo for maior ele retorna o valo d 1*/
 echo "<br>";
 
 // Exemplo 2
