@@ -1,0 +1,3 @@
+<?php
+
+// Funções para strings
