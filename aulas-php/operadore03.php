@@ -30,3 +30,5 @@ $n1 = 5;
 $n2 = 1000;
 $nome = $n1 *= $n2;
 echo "$n1 Já pode compra seu PS5 agora";
+
+// Exemplo 4
