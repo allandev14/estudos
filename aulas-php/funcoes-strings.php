@@ -37,5 +37,10 @@ echo "<br/> <hr/>";
 
 // str_pad atribui uma quantida de strings para o código
 $objeto = "casa";
-$novoObjeto = str_pad($objeto, 7, "de Deus"); 
+$novoObjeto = str_pad($objeto, 1, "*****", STR_PAD_LEFT ); // O último parâmetro denota o lado onde o últim parâmetro irá aparacer
 
+// string_repeat Repete uma string por período determinado previamente
+
+$string = str_repeat("sucesso", 5);  
+echo $string;
+echo "<br/>";
