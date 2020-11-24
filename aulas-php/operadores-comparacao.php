@@ -10,7 +10,7 @@ endif;
 echo "<br/>";
 
 if (20 == 32):
-    echo "Positivo";
+    echo "Sua conta está positiva";
 else:
-    echo "Negativo";
+    echo "Sua conta está negativa";
 endif;
