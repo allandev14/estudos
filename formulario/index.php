@@ -28,11 +28,11 @@ if (isset($_POST['enviar-formulario'])):
     endif;
     if(!empty($erros)): // empty aqui significa por enquanto
         foreach($erros as $erro):
-            echo "<li>" $erro "</li>";
+            echo "<li> $erro </li>";
         endforeach;
     else:
         echo "Parabéns seus dados estão corretos.";
-
+    endif;
 endif;
 
 ?>
