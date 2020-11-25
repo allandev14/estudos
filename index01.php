@@ -1,20 +1,18 @@
 <?php
-// Sanitização em PHP
+if (isset($_POST['enviar-formulario'])):
+    // Arrays de erro
+    $erros = array();
 
-// Sanitize
-$nome = filter_input(INPUT_POST, "nome", FILTER_SANITIZE_SPECIAL_CHARS);
-echo "nome";
-// Exibindo mensagem
-   if(!empty($erros)): // empty aqui significa por enquanto
-    foreach($erros as $erro):
-            echo "<li> $erro </li>";
-        endforeach;
-        else:
-            echo "Parabéns seus dados estão corretos.";
-        endif;
-
-    
-    ?>
+    //Sanetize
+    $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
+    echo $nome. "<br>";
+    $idade = filter_input(INPUT_POST, 'idade', FILTER_SANITIZE_NUMBER_INT);
+    echo $idade. "<br>";
+    $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+    echo $email. "<br>";
+    $url = filter_input()INPUT_POST, 'url', FILTER_SANTIZE_URL);
+    echo $url;
+?>
 
 <!-- Bloco html -->
 <!DOCTYPE html>
