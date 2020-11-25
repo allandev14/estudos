@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form action="dados.php">
         Nome: <input type="text" name="nome">
         Email: <input type="email" name="Email">
         <input type="submit" name="enviar">
