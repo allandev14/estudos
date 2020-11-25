@@ -1,4 +1,6 @@
 <?php
+/*
+Confirmação de instancia de dados no formulário
 if (isset($_POST['enviar-formulario'])):
     echo "Enviou";
 else:
@@ -7,9 +9,14 @@ endif;
 echo "<br>";
 
 var_dump($_POST);
+*/
+if (isset($_POST['enviar-formulario'])):
+    $erros = array();
 
-
-
+    if ($idade = filter_input (INPUT_POST, "idade", FILTER_VALIDATE_INT)):
+        echo "É um inteiro";
+    endif;
+endif;
 ?>
 <!DOCTYPE html>
 <html lang="en">
