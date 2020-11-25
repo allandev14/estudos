@@ -11,8 +11,11 @@ echo "<br>";
 var_dump($_POST);
 */
 if (isset($_POST['enviar-formulario'])):
+    
+    // Arrays de erros
     $erros = array();
 
+    //Arrays de validações
     if ($idade = filter_input (INPUT_POST, "idade", FILTER_VALIDATE_INT)):
         echo "É um inteiro";
     else:
@@ -21,11 +24,24 @@ if (isset($_POST['enviar-formulario'])):
 
     echo "<br>";
     if ($email = filter_input (INPUT_POST, "email", FILTER_VALIDATE_EMAIL)):
+    foreach($erros as $erro):
+        echo "<li> $erro </li>";
+    endforeach;
+    else:
+        echo "Email inválido";
     endif;
+    if ($peso = filter_input (INPUT_POST, "peso", FILTER_VALIDATE_FLOAT)):
+    else:
+        echo "Peso precisa ser um float";
+    endif;
+    if ($ip = filter_input (INPUT_POST, "ip", FILTER_VALIDATE_IP)):
+    else:
+        echo "IP inválido";
+    endif;
+    if ($url = filter_input (INPUT_POST, "url", FILTER_VALIDATE_URL)):
+    else:
+        echo "URL inválido";
 
-    if (!$peso = filter_input (INPUT_POST, "idade", FILTER_VALIDATE_INT)):
-        $erros[] = "Peso precisa ser do tipo int";
-    endif;
     if(!empty($erros)): // empty aqui significa por enquanto
         foreach($erros as $erro):
             echo "<li> $erro </li>";
