@@ -74,10 +74,11 @@ echo "<br/> <hr/>";
 function somaValor ($nome02, $n1, $n2, $n3, $n4) {
     $soma = ($n1 + $n2 +$n3 + $n4);
     if($soma == 100):
-        echo "O valor esperado era igual a 100, sua foi igual à $soma, Parabéns.";
+        echo "$nome02 o valor esperado era igual a 100, sua foi igual à $soma, Parabéns. <br/>";
     else:
-        echo "Sua soma não retornou o valor de 100 como esperado $soma, tente novamente.";
+        echo "$nome02 sua soma não retornou o valor de 100 como esperado $soma, tente novamente. <br/>";
     endif;
 }
 
 somaValor("Carlos", 25, 25, 25, 25);
+somaValor("Adriana", 23, 45, 12, 25);
