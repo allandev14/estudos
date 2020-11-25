@@ -6,10 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="dados.php">
-        Nome: <input type="text" name="nome">
-        Email: <input type="email" name="Email">
-        <input type="submit" name="enviar">
+    <form action="dados.php" method="POST">
+        Nome: <input type="text" name="nome"><br> <br>
+        Email: <input type="email" name="email"><br>
+        <button type='submit'>Enviar</button>
     </form>
 </body>
 </html>
