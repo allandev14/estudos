@@ -18,10 +18,11 @@ if (isset($_POST['enviar-formulario'])):
     else:
         echo "Não é um inteiro"; // Essa parte é opicional para execução do código
     endif;
-    if (!$email = filter_input (INPUT_POST, "email", FILTER_VALIDATE_EMAIL)):
-        echo "Seu email não está correto";
+    echo "<br>";
+    if ($email = filter_input (INPUT_POST, "email", FILTER_VALIDATE_EMAIL)):
+        echo "Email correto";
     else:
-        echo "Seu email está correto";
+        echo "Email incorreto";
     endif;
 endif;
 ?>
