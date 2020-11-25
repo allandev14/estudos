@@ -4,7 +4,6 @@
 // Sanitize
 $nome = filter_input(INPUT_POST, "nome", FILTER_SANITIZE_SPECIAL_CHARS);
 echo "nome";
-
 // Exibindo mensagem
    if(!empty($erros)): // empty aqui significa por enquanto
     foreach($erros as $erro):
