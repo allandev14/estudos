@@ -15,6 +15,8 @@ if (isset($_POST['enviar-formulario'])):
 
     if ($idade = filter_input (INPUT_POST, "idade", FILTER_VALIDATE_INT)):
         echo "É um inteiro";
+    else:
+        echo "Não é um inteiro";
     endif;
 endif;
 ?>
