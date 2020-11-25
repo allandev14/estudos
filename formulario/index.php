@@ -20,7 +20,7 @@ if (isset($_POST['enviar-formulario'])):
     endif;
     echo "<br>";
     if ($email = filter_input (INPUT_POST, "email", FILTER_VALIDATE_EMAIL)):
-        echo "Email correto";
+        echo "Email incorreto";
     else:
         echo "Email incorreto";
     endif;
@@ -39,7 +39,7 @@ endif;
         Email: <input type="email" name="email"><br>
         Peso: <input Type="text" name="Peso"><br>
         IP: <input type="text" name="ip"><br>
-        URL: <input type="text" name="url">
+        URL: <input type="text" name="url"><br>
         <button type='submit' name="enviar-formulario">Enviar</button> <br>
     </form>
     <!--<a href='dados.php?idade=25&sobrenome=Souza'>Enviar dados</a>Podemos adicionar um parametro no arquivo php
