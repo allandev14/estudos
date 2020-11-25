@@ -42,7 +42,8 @@ if (isset($_POST['enviar-formulario'])):
     else:
         echo "URL inválido";
 
-    if(!empty($erros)): // empty aqui significa por enquanto
+    // Exibindo mensagem
+        if(!empty($erros)): // empty aqui significa por enquanto
         foreach($erros as $erro):
             echo "<li> $erro </li>";
         endforeach;
