@@ -20,7 +20,7 @@ exibirData();
 echo "<br/> <hr/>";
 
 // Exemplo 3
-function exibirMoeda() {
+function exibirNota() {
     if (50 <=(5 * 9)):
         echo "Verdadeiro";
     else:
@@ -28,7 +28,7 @@ function exibirMoeda() {
     endif;
     }
 
-exibirMoeda();
+exibirNota();
 echo "<br/> <hr/>";
 
 // Exemplo 4
@@ -43,7 +43,15 @@ function exibirSoma() {
         echo "Parabéns você foi aprovado";
     else:
         echo "Você não foi aprovado";
-    endif;   
+    endif;  
 }
 
 exibirSoma();
+echo "<br/> <hr/>";
+
+// Exemplo 5
+
+function exibirNome1 ($nome01) {
+    echo "Olá, prazer em te conhecer $nome01";
+}
+exibirNome1("Karina Leite");
