@@ -41,12 +41,13 @@ if (isset($_POST['enviar-formulario'])):
     if ($url = filter_input (INPUT_POST, "url", FILTER_VALIDATE_URL)):
     else:
         echo "URL inválido";
-
+    endif;
+    
     // Exibindo mensagem
-        if(!empty($erros)): // empty aqui significa por enquanto
-        foreach($erros as $erro):
-            echo "<li> $erro </li>";
-        endforeach;
+    if(!empty($erros)): // empty aqui significa por enquanto
+    foreach($erros as $erro):
+        echo "<li> $erro </li>";
+    endforeach;
     else:
         echo "Parabéns seus dados estão corretos.";
     endif;
