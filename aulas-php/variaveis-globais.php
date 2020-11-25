@@ -26,10 +26,12 @@ soma02();
 echo "<br/> <hr/>";
 
 // Super $_SERVER é uma arrar que guarda vários indices
-
+// Obs olhar posteriormente mais sobre o $_SERVER no manual do PHP
 echo $_SERVER['PHP_SELF']. "<br/>";  //variável identifica qual o caminho do arquivo PHP na máquina local
 echo $_SERVER['SERVER_NAME']."<br/>"; // variável mostra qual o servidor está alocando o PHP
 echo $_SERVER['SCRIPT_FILENAME']. "<br/>"; // variável mostra qual o caminho absoluto do SCRIPT
 echo $_SERVER['DOCUMENT_ROOT']. "<br/>"; // Variável mostra o caminho absoluto do documento
-echo $_SERVER['SERVER_PORT']. "<br/>"; // variável mostra o camnho da porta do servidor 
+echo $_SERVER['SERVER_PORT']. "<br/>"; // variável mostra o camnho da porta do servidor
+echo $_SERVER['REMOTE_ADDR']. "<br>"; // variável retorna o endereço inteiro de onde o usuário está acessando a página
+echo $_SERVER['REQUEST_TIME']. "<br/>"; // varíável retorna o valor do timestamp do ínicio da requisição
  
