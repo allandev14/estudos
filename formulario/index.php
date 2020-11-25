@@ -26,6 +26,12 @@ if (isset($_POST['enviar-formulario'])):
     if (!$peso = filter_input (INPUT_POST, "idade", FILTER_VALIDATE_INT)):
         $erros[] = "Peso precisa ser do tipo int";
     endif;
+    if(!empty($erros)): // empty aqui significa por enquanto
+        foreach($erros as $erro):
+            echo "<li>" $erro "</li>";
+        endforeach;
+    else:
+        echo "Parabéns seus dados estão corretos.";
 
 endif;
 
